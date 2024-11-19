@@ -1,0 +1,40 @@
+{
+  "name": "proto-tailwindcss-pxls",
+  "version": "0.0.0",
+  "description": "Tailwind CSS 3.x plugin that generates pixel classes for tricky pixel-perfect layouts.",
+  "main": "index.js",
+  "author": "Rob Sawyer <robksawyer@gmail.com>",
+  "contributors": [
+    {
+      "name": "Richard Hess",
+      "email": "eswat2@gmail.com",
+      "url": "https://eswat2.dev"
+    }
+  ],
+  "license": "ISC",
+  "repository": "https://github.com/eswat2/proto-tailwindcss-pxls.git",
+  "bugs": "https://github.com/eswat2/proto-tailwindcss-pxls/issues",
+  "homepage": "https://github.com/eswat2/proto-tailwindcss-pxls",
+  "engines": {
+    "node": "~22"
+  },
+  "private": false,
+  "scripts": {
+    "test": "jest",
+    "deploy": "yarn test; echo -- run [ np patch ]",
+    "format": "prettier --write *.js cSpell.json"
+  },
+  "dependencies": {},
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.20",
+    "jest": "29.7.0",
+    "jest-matcher-css": "1.1.0",
+    "lodash": "4.17.21",
+    "postcss": "8.4.49",
+    "rollup": "4.27.3",
+    "tailwindcss": "3.4.15"
+  }
+}
