@@ -1,4 +1,3 @@
-const _ = require('lodash')
 const postcss = require('postcss')
 const tailwindcss = require('tailwindcss')
 const plugin = require('./index.js')
