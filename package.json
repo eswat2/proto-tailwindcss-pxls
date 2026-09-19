@@ -12,7 +12,10 @@
     }
   ],
   "license": "ISC",
-  "repository": "https://github.com/eswat2/proto-tailwindcss-pxls.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eswat2/proto-tailwindcss-pxls.git"
+  },
   "bugs": "https://github.com/eswat2/proto-tailwindcss-pxls/issues",
   "homepage": "https://github.com/eswat2/proto-tailwindcss-pxls",
   "engines": {
